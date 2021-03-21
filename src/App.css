@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headline {
+  margin: 10vh 5vw 10vh 5vw;
+  font-family: HelveticaNeue;
+  font-size: 400%;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+  color: #ffffff;
+}
+
+.subhead {
+  margin: 12.5vh 5vw 13.25vh 5vw;
+  font-family: HelveticaNeue;
+  font-size: 130%;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Industries-Services {
+  width: 5vw;
+  height: 6vh;
+  margin: 1vh 0vw 0 0vw;
+  font-family: HelveticaNeue;
+  font-size: 130%;
+  font-weight: bold;
+  font-stretch: expanded;
+  white-space: nowrap;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  transition: transform .2s;
+}
+
+.cta {
+  margin: 8vh 10vw 0vh -30vw;
+  font-family: HelveticaNeue;
+  width: 50%;
+  font-size: 170%;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+  /*border: 1px solid black;*/
+  display: inline-block;
+  color: black;
+  position: absolute;
+}
+
+h3:hover {
+  color: #ffc004;
+  transform: scale(1.2); 
+}
+
+.rectangle {
+  position: absolute;
+  width: 80%;
+  margin-left: 10vw;
+  height: 20vh;
+  bottom: 0vh;
+  float: left;
+  background: white;
+  overflow: hidden;
+}
+
+.menu {
+  margin-left: 5vw;
+  margin-top: 10vw;
+  float: left;
+  width: 90%;
+  /*border: 1px solid white;*/
+}
+
+.logo {
+  height: 3vw;
+  margin-top: 5vw;
+  margin-left: -45vw;
+  position: absolute;
+}
+.main {
+  margin-left: 5vw;
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  /*border: 1px solid white;*/
+  overflow: hidden;
+}
+.right {
+  margin-bottom: 30vh;
+  float: left;
+  width: 42%;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  /*border: 1px solid white;*/
+  margin-top: 7px;
+  overflow: hidden;
+}
+
+.button1 {
+  right: 4.8vw;
+  top: 4vh;
+  position: absolute;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.button1:hover {
+  color: #ffc004;
+  border: 2px solid #ffc004;
+  transform: scale(1.2); 
+}
+
+.button2 {
+  width: 10%;
+  margin-top: 7vh;
+  margin-right: 9vw;
+  color: black;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  float: right;
+  font-size: 100%;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.button2:hover {
+  color: #ffc004;
+  transform: scale(1.2); 
+}
+
+@media only screen and (max-width:800px) {
+  .main, .right, .rectangle {
+    width: 80%;
+  }
+}
+@media only screen and (max-width:500px) {
+  .main, .right, .rectangle{
+    width: 100%;
+  }
+}
+
