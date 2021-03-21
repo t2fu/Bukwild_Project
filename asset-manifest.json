@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Bukwild_Project1/static/css/main.76f28599.chunk.css",
+    "main.js": "/Bukwild_Project1/static/js/main.10cd90ef.chunk.js",
+    "main.js.map": "/Bukwild_Project1/static/js/main.10cd90ef.chunk.js.map",
+    "runtime-main.js": "/Bukwild_Project1/static/js/runtime-main.fc9c0cca.js",
+    "runtime-main.js.map": "/Bukwild_Project1/static/js/runtime-main.fc9c0cca.js.map",
+    "static/js/2.cbba28da.chunk.js": "/Bukwild_Project1/static/js/2.cbba28da.chunk.js",
+    "static/js/2.cbba28da.chunk.js.map": "/Bukwild_Project1/static/js/2.cbba28da.chunk.js.map",
+    "static/js/3.a1ffcd41.chunk.js": "/Bukwild_Project1/static/js/3.a1ffcd41.chunk.js",
+    "static/js/3.a1ffcd41.chunk.js.map": "/Bukwild_Project1/static/js/3.a1ffcd41.chunk.js.map",
+    "index.html": "/Bukwild_Project1/index.html",
+    "static/css/main.76f28599.chunk.css.map": "/Bukwild_Project1/static/css/main.76f28599.chunk.css.map",
+    "static/js/2.cbba28da.chunk.js.LICENSE.txt": "/Bukwild_Project1/static/js/2.cbba28da.chunk.js.LICENSE.txt",
+    "static/media/abc_logo.c72ca4e0.svg": "/Bukwild_Project1/static/media/abc_logo.c72ca4e0.svg",
+    "static/media/slide_one.df407357.jpg": "/Bukwild_Project1/static/media/slide_one.df407357.jpg",
+    "static/media/slide_three.25c6c4ee.jpg": "/Bukwild_Project1/static/media/slide_three.25c6c4ee.jpg",
+    "static/media/slide_two.b7b871cc.jpg": "/Bukwild_Project1/static/media/slide_two.b7b871cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc9c0cca.js",
+    "static/js/2.cbba28da.chunk.js",
+    "static/css/main.76f28599.chunk.css",
+    "static/js/main.10cd90ef.chunk.js"
+  ]
+}
